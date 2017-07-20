@@ -1,0 +1,11 @@
+<section>
+  <label>First name: </label>
+  <input [(ngModel)]="author.firstName" placeholder="First name">
+  <label>Surname: </label>
+  <input [(ngModel)]="author.surName" placeholder="Surename">
+  <label>Bio: </label>
+  <textarea [(ngModel)]="author.bio" placeholder="...write a short bio..."></textarea>
+  <label>Profile pic url: </label>
+  <input [(ngModel)]="author.profilePicUrl" placeholder="url">
+  <button (click)="submitAuthor()">Submit</button>
+</section>

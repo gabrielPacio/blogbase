@@ -1,0 +1,13 @@
+<section *ngIf="blogPost" >
+  <header>
+    <h2>{{blogPost.title}}</h2>
+    <h3>{{blogPost.author}}</h3>
+    <small>{{blogPost.date}}</small>
+  </header>
+  <div>
+    {{blogPost.content}}
+  </div>
+  <footer>
+    <small>This is a footer comment</small>
+  </footer>
+</section>

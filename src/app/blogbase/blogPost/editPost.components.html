@@ -1,0 +1,9 @@
+<section>
+  <label>Title: </label>
+  <input [(ngModel)]="blogPost.title" placeholder="Title">
+  <label>Author: </label>
+  <input [(ngModel)]="blogPost.author" placeholder="Author">
+  <label>Content: </label>
+  <textarea [(ngModel)]="blogPost.content" placeholder="...write your text..."></textarea>
+  <button (click)="submitPost()">Submit</button>
+</section>

@@ -1,0 +1,31 @@
+{
+  "blogPosts": [
+    {
+      "blogPost": {
+        "id": 0,
+        "title": "First Post",
+        "author": "The Author",
+        "date": "2016-05-18T16:00:00Z",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia augue vitae rutrum tempus. Donec non nunc et nunc vestibulum bibendum. Nam aliquam turpis eget imperdiet tincidunt. Vivamus erat ipsum, tincidunt ut feugiat id, porttitor eget tortor. Phasellus egestas est aliquet dolor interdum fringilla. Integer dapibus, magna eget tincidunt porttitor, elit justo tempus odio, quis auctor est augue at arcu. Pellentesque suscipit enim sit amet lorem fringilla, et pharetra ligula scelerisque. Suspendisse nec enim malesuada, mattis leo id, pretium nibh. Fusce augue ligula, eleifend sit amet consequat sed, blandit vitae est. Quisque efficitur auctor metus ac hendrerit. Suspendisse at ultricies augue, sit amet cursus orci."
+      }
+    },
+    {
+      "blogPost": {
+        "id": 1,
+        "title": "Second Post",
+        "author": "Another Author",
+        "date": "2012-12-12T16:00:00Z",
+        "content": "Integer auctor efficitur quam vel fringilla. Ut porttitor eleifend est, in lacinia arcu semper nec. Pellentesque suscipit imperdiet magna vel mollis. Nullam porttitor dui eget fringilla elementum. Mauris lectus nisl, eleifend sit amet justo vitae, aliquet dictum neque. Sed ut tortor hendrerit, hendrerit arcu at, sollicitudin diam. Integer dignissim enim at rutrum egestas. "
+      }
+    },
+    {
+      "blogPost": {
+        "id": 2,
+        "title": "Third Post",
+        "author": "Yet Another Author",
+        "date": "2011-11-11T16:00:00Z",
+        "content": "Morbi dignissim augue eu justo porttitor, sit amet eleifend nisi pulvinar. Phasellus ipsum ligula, euismod sit amet diam non, pretium laoreet eros. Pellentesque viverra arcu at accumsan tincidunt. Nulla facilisi. Duis scelerisque pharetra nisi et ultricies. Vestibulum eget mi mattis, porttitor nunc a, placerat dolor. Sed in erat non tellus vestibulum aliquam sed at dolor. Sed augue purus, rutrum nec sem et, ornare fringilla justo. "
+      }
+    }
+  ]
+}
