@@ -36,3 +36,16 @@ module.exports.getAuthorById = function (id, callback) {
 module.exports.addAuthor = function (author, callback) {
     Author.create(author, callback);
 }
+
+module.exports.updateAuthor = function (id, author, options, callback) {
+    var query = { _id: id };
+    var update = {
+        firstName: author.firstName,
+        lastName: author.lastName,
+        bio: author.bio,
+        profilePicUrl: author.profilePicUrl,
+
+
+    }
+    Author.findOneAndUpdate(query, update, options, callback);
+}

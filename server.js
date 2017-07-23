@@ -76,6 +76,18 @@ app.post('/api/authors', (request, response) => {
   })
 });
 
+app.put('/api/authors/:_id', (request, response) => {
+  var id = request.params._id;
+  var author = request.body;
+  Author.updateAuthor(id, author, {}, (err, author) => {
+    if (err) {
+      console.log('Error updating author', err);
+      throw err;
+    }
+    response.json(author);
+  })
+});
+
 app.get('/api/blogPosts', (request, response) => {
     BlogPost.getBlogPosts((err, blogPosts) => {
         if (err) {
